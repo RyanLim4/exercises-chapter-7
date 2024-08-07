@@ -5,6 +5,7 @@ import numpy as np
 
 class SymmetricGroup(Group):
     """The general symmetric group."""
+
     symbol = "S"
 
     def _validate(self, value):
